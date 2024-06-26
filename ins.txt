@@ -1,0 +1,35 @@
+EntityFrameworkCore.SqlServer
+EntityFrameworkCore.Design
+-------------------------------------
+"ConnectionStrings": {
+  "default": "Server=(localdb)\\mssqllocaldb;Database=test2;Trusted_Connection=True;"
+}
+--------------------------------------
+public class ApplicationContext : DbContext
+{
+    public DbSet<Player> Players { get; set; }
+    public DbSet<League> Leagues { get; set; }
+    public DbSet<Team> Teams { get; set; }
+    public DbSet<Stadium> Stadiums { get; set; }
+    public ApplicationContext(DbContextOptions options) : base(options)
+    {
+        Database.EnsureCreated();
+        //Database.EnsureDeleted();
+    }
+}
+--------------------------------------------
+ public class Stadium
+ {
+     [Key]
+     [ScaffoldColumn(false)]
+     public int StadiumId { get; set; }
+     [Required]
+     [Display(Name = "Denumirea stadionului")]
+     public string StadiumName { get; set; }
+     [Required]
+     [Display(Name = "Orașul și țara")]
+     public string Location { get; set; }
+     [Required]
+     [Display(Name = "Nr de locuri")]
+     public int Capacity { get; set; }
+ }
