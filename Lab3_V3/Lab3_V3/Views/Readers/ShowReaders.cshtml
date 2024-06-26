@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Lab3_V3.Models.ReaderModel>
+
+@{
+    ViewData["Title"] = "ShowReaders";
+}
+
+<h1>Lista de cititori</h1>
+
+<p>
+    <a asp-action="AddReader">Adaugă cititor</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.book)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReturnDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.book.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReturnDate)
+            </td>
+            <td>
+                <a asp-action="EditReader" asp-route-id="@item.ReaderId">Modifică</a> |
+                <a asp-action="DeleteReader" asp-route-id="@item.ReaderId">Șterge</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

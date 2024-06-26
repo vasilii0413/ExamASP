@@ -1,0 +1,111 @@
+﻿@using Lab2.Models
+@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Stadioanele";
+}
+<style>
+    @@font-face {
+        font-family: 'FontAwesome';
+        src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal
+    }
+
+    .glyphicon {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    .glyphicon-chevron-right:before {
+        content: "\f054";
+    }
+
+    .glyphicon-chevron-left:before {
+        content: "\f053";
+    }
+</style>
+
+<h1>Stadioanele</h1>
+
+<p>
+    <a class="btn btn-primary" style="font-weight:bold" asp-action="AddStadium">Adaugă alt stadion</a>
+</p>
+
+<form method="get">
+    <div class="form-inline">
+        <label class="mr-2">Locatie:</label>
+        <input name="name" value="@Model.FilterViewModelStadiums.SelectedStadium" class="form-control" />
+        <br />
+        <input type="submit" value="Caută" class="btn btn-outline-dark" />
+    </div>
+</form>
+<br />
+<table class="table table-bordered table-hover">
+    <thead class="bg-light">
+        <tr class="text-center">
+            <th>
+                <a asp-action="ShowStadiums"
+                   asp-route-sortOrder="@(Model.SortViewModelStadiums.StadiumNameSort)"
+                   asp-route-name="@(Model.FilterViewModelStadiums.SelectedName)"
+                   asp-route-stadium="@(Model.FilterViewModelStadiums.SelectedStadium)">Denumire</a>
+            </th>
+            <th>
+                <a asp-action="ShowStadiums"
+                   asp-route-sortOrder="@(Model.SortViewModelStadiums.LocationSort)"
+                   asp-route-name="@(Model.FilterViewModelStadiums.SelectedName)"
+                   asp-route-stadium="@(Model.FilterViewModelStadiums.SelectedStadium)">Locația</a>
+            </th>
+            <th>
+                <a asp-action="ShowStadiums"
+                   asp-route-sortOrder="@(Model.SortViewModelStadiums.CapacitySort)"
+                   asp-route-name="@(Model.FilterViewModelStadiums.SelectedName)"
+                   asp-route-stadium="@(Model.FilterViewModelStadiums.SelectedStadium)">Nr de locuri</a>
+            </th>
+            <th>
+                Acțiune
+            </th>
+        </tr>
+    </thead>
+    @foreach (Stadium s in Model.Stadiums)
+    {
+        <tr class="text-center">
+            <td>@s.StadiumName</td>
+            <td>@s.Location</td>
+            <td>@s.Capacity</td>
+            <td>
+                <a class="btn btn-outline-primary" style="font-weight:bold" asp-action="EditStadium" asp-route-id="@s.StadiumId">Modifică</a>
+                <a class="btn btn-outline-danger" style="font-weight:bold" asp-action="DeleteStadium" asp-route-id="@s.StadiumId">Șterge</a>
+            </td>
+
+        </tr>
+    }
+</table>
+@if (Model.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="ShowStadiums"
+       asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+       asp-route-name="@(Model.FilterViewModelStadiums.SelectedName)"
+       asp-route-stadium="@(Model.FilterViewModelStadiums.Stadiums)"
+       asp-route-sortorder="@(Model.SortViewModelStadiums.Current)"
+       class="btn  btn-outline-dark">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Înapoi
+    </a>
+}
+@if (Model.PageViewModel.HasNextPage)
+{
+    <a asp-action="ShowStadiums"
+       asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+       asp-route-name="@(Model.FilterViewModelStadiums.SelectedName)"
+       asp-route-stadium="@(Model.FilterViewModelStadiums.SelectedStadium)"
+       asp-route-sortorder="@(Model.SortViewModelStadiums.Current)"
+       class="btn btn-outline-dark">
+        Înainte
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+}

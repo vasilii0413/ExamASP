@@ -1,0 +1,49 @@
+﻿@model Lab2.Models.League
+
+@{
+    ViewData["Title"] = "EditLeague";
+}
+
+<h1>EditLeague</h1>
+
+<h4>League</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditLeague">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="LeagueId" />
+            <div class="form-group">
+                <label asp-for="LeagueName" class="control-label"></label>
+                <input asp-for="LeagueName" class="form-control" />
+                <span asp-validation-for="LeagueName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country" class="control-label"></label>
+                <input asp-for="Country" class="form-control" />
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ShowLeagues">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,30 @@
+﻿namespace Lab2.Models
+{
+    public enum SortState
+    {
+        NameAsc,    
+        NameDesc,   
+        CountryAsc,
+        CountryDesc,
+        TeamAsc,
+        TeamDesc,
+        PositionAsc,
+        PositionDesc,
+        BirthDateAsc,
+        BirthDateDesc,
+        TeamNameAsc,
+        TeamNameDesc,
+        CoachNameAsc,
+        CoachNameDesc,
+        YearFoundationAsc,
+        YearFoundationDesc,
+        LeagueAsc,
+        LeagueDesc,
+        StadiumNameAsc,
+        StadiumNameDesc,
+        LocationAsc,
+        LocationDesc,
+        CapacityAsc,
+        CapacityDesc
+    }
+}

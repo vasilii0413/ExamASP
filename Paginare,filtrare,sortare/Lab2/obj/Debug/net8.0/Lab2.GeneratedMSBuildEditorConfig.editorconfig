@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lab2
+build_property.RootNamespace = Lab2
+build_property.ProjectDir = E:\CEEF\Anul IV\MVC\Paginare,filtrare,sortare\Lab2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\CEEF\Anul IV\MVC\Paginare,filtrare,sortare\Lab2
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Leagues/AddLeague.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZ3Vlc1xBZGRMZWFndWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Leagues/EditLeague.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZ3Vlc1xFZGl0TGVhZ3VlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Leagues/ShowLeagues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZ3Vlc1xTaG93TGVhZ3Vlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Players/AddPlayer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xBZGRQbGF5ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Players/EditPlayer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xFZGl0UGxheWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Players/ShowPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xTaG93UGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Stadiums/AddStadium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGl1bXNcQWRkU3RhZGl1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Stadiums/EditStadium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGl1bXNcRWRpdFN0YWRpdW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Stadiums/ShowStadiums.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZGl1bXNcU2hvd1N0YWRpdW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Teams/AddTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQWRkVGVhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Teams/EditTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdFRlYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Teams/ShowTeams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcU2hvd1RlYW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CEEF/Anul IV/MVC/Paginare\,filtrare\,sortare/Lab2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2skih1muzf

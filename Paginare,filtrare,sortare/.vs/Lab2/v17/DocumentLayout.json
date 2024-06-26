@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|e:\\ceef\\anul iv\\mvc\\paginare,filtrare,sortare\\lab2\\models\\sortviewmodelplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\sortviewmodelplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\lab2\\models\\sortstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\sortstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\lab2\\models\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\lab2\\controllers\\leaguescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\leaguescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\lab2\\views\\players\\showplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\players\\showplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\lab2\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\lab2\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7FA14-FC95-4FC7-9770-6FF4C6BE7109}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortViewModelPlayers.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\SortViewModelPlayers.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\SortViewModelPlayers.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\SortViewModelPlayers.cs",
+              "RelativeToolTip": "Lab2\\Models\\SortViewModelPlayers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:44:00.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SortState.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\SortState.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\SortState.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\SortState.cs",
+              "RelativeToolTip": "Lab2\\Models\\SortState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:43:41.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortViewModel.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\SortViewModel.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\SortViewModel.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\SortViewModel.cs",
+              "RelativeToolTip": "Lab2\\Models\\SortViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T17:43:40.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowPlayers.cshtml",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Views\\Players\\ShowPlayers.cshtml",
+              "RelativeDocumentMoniker": "Lab2\\Views\\Players\\ShowPlayers.cshtml",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Views\\Players\\ShowPlayers.cshtml",
+              "RelativeToolTip": "Lab2\\Views\\Players\\ShowPlayers.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T16:36:46.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaguesController.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Controllers\\LeaguesController.cs",
+              "RelativeDocumentMoniker": "Lab2\\Controllers\\LeaguesController.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Controllers\\LeaguesController.cs",
+              "RelativeToolTip": "Lab2\\Controllers\\LeaguesController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA1wC4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:18:10.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Team.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\Team.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\Team.cs",
+              "RelativeToolTip": "Lab2\\Models\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:52:44.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\ApplicationContext.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\MVC\\Paginare,filtrare,sortare\\Lab2\\Models\\ApplicationContext.cs",
+              "RelativeToolTip": "Lab2\\Models\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:14:13.811Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

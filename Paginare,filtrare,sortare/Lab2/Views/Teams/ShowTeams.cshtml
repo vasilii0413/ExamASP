@@ -1,0 +1,119 @@
+﻿@using Lab2.Models
+@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Echipele";
+}
+<style>
+    @@font-face {
+        font-family: 'FontAwesome';
+        src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal
+    }
+
+    .glyphicon {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    .glyphicon-chevron-right:before {
+        content: "\f054";
+    }
+
+    .glyphicon-chevron-left:before {
+        content: "\f053";
+    }
+</style>
+<h1>Echipele</h1>
+
+<p>
+    <a asp-action="AddTeam" class="btn btn-primary" style="font-weight:bold">Adaugă echipă</a>
+</p>
+<form method="get">
+    <div class="form-inline">
+        <label class="mr-2">Denumirea echipei:</label>
+        <input name="name" value="@Model.FilterViewModelTeams.SelectedTeam" class="form-control" />
+
+        <label>Liga</label>
+        <select name="league" asp-items="Model.FilterViewModelLeagues.Leagues" class="form-control"></select>
+        <br />
+        <input type="submit" value="Filtrare" class="btn btn-outline-dark" />
+    </div>
+</form>
+<br />
+<table class="table table-bordered table-hover">
+    <thead class="bg-light">
+        <tr class="text-center">
+            <th>
+                <a asp-action="ShowTeams"
+                   asp-route-sortOrder="@(Model.SortViewModelTeams.TeamNameSort)"
+                   asp-route-name="@(Model.FilterViewModelTeams.SelectedName)"
+                   asp-route-team="@(Model.FilterViewModelTeams.SelectedTeam)">Denumire</a>
+            </th>
+            <th>
+                <a asp-action="ShowTeams"
+                   asp-route-sortOrder="@(Model.SortViewModelTeams.CoachNameSort)"
+                   asp-route-name="@(Model.FilterViewModelTeams.SelectedName)"
+                   asp-route-team="@(Model.FilterViewModelTeams.SelectedTeam)">Nume antrenor</a>
+            </th>
+            <th>
+                <a asp-action="ShowTeams"
+                   asp-route-sortOrder="@(Model.SortViewModelTeams.YearFoundationSort)"
+                   asp-route-name="@(Model.FilterViewModelTeams.SelectedName)"
+                   asp-route-team="@(Model.FilterViewModelTeams.SelectedTeam)">Anul Fondării</a>
+            </th>
+            <th>
+                <a asp-action="ShowTeams"
+                   asp-route-sortOrder="@(Model.SortViewModelTeams.TeamNameSort)"
+                   asp-route-name="@(Model.FilterViewModelTeams.SelectedName)"
+                   asp-route-team="@(Model.FilterViewModelTeams.SelectedTeam)">Liga</a>
+            </th>
+            <th>
+                Acțiune
+            </th>
+    </thead>
+    </tr>
+    @foreach (var team in Model.Teams)
+    {
+        <tr class="text-center">
+            <td>@team.TeamName</td>
+            <td>@team.CoachName</td>
+            <td>@team.FoundedYear</td>
+            <td>@team.League.LeagueName</td>
+            <td>
+                <a class="btn btn-outline-primary" style="font-weight:bold" asp-action="EditTeam" asp-route-id="@team.TeamId">Modifică</a>
+                <a class="btn btn-outline-danger" style="font-weight:bold" asp-action="DeleteTeam" asp-route-id="@team.TeamId">Șterge</a>
+            </td>
+        </tr>
+    }
+</table>
+
+@if (Model.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="ShowTeams"
+       asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+       asp-route-name="@(Model.FilterViewModelTeams.SelectedName)"
+       asp-route-team="@(Model.FilterViewModelTeams.SelectedTeam)"
+       asp-route-sortorder="@(Model.SortViewModelTeams.Current)"
+       class="btn  btn-outline-dark">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Înapoi
+    </a>
+}
+@if (Model.PageViewModel.HasNextPage)
+{
+    <a asp-action="ShowTeams"
+       asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+       asp-route-name="@(Model.FilterViewModelTeams.SelectedName)"
+       asp-route-team="@(Model.FilterViewModelTeams.SelectedTeam)"
+       asp-route-sortorder="@(Model.SortViewModelTeams.Current)"
+       class="btn btn-outline-dark">
+        Înainte
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+}
