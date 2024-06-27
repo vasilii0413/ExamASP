@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|e:\\ceef\\anul iv\\linq\\lab6\\lab6\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|solutionrelative:lab6\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|E:\\CEEF\\Anul IV\\LINQ\\Lab6\\lab6\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|solutionrelative:lab6\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|E:\\CEEF\\Anul IV\\LINQ\\Lab6\\lab6\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|solutionrelative:lab6\\models\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|E:\\CEEF\\Anul IV\\LINQ\\Lab6\\lab6\\addleague.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8949E70B-8203-460D-8487-937D2F7B95D9}|Lab6\\StudiuFootballDb.csproj|solutionrelative:lab6\\addleague.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Lab6\\ApplicationContext.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\ApplicationContext.cs",
+              "RelativeToolTip": "Lab6\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T18:26:49.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Lab6\\Models\\Player.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\Models\\Player.cs",
+              "RelativeToolTip": "Lab6\\Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T18:23:20.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stadium.cs",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\Models\\Stadium.cs",
+              "RelativeDocumentMoniker": "Lab6\\Models\\Stadium.cs",
+              "ToolTip": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\Models\\Stadium.cs",
+              "RelativeToolTip": "Lab6\\Models\\Stadium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T18:23:19.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddLeague.cs [Design]",
+              "DocumentMoniker": "E:\\CEEF\\Anul IV\\LINQ\\Lab6\\Lab6\\AddLeague.cs",
+              "RelativeDocumentMoniker": "Lab6\\AddLeague.cs",
+              "ToolTip": "E:\\College\\Anul IV\\LINQ\\Lab6\\Lab6\\AddLeague.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\College\\Anul IV\\LINQ\\Lab6\\Lab6\\AddLeague.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T18:19:46.72Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
